@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Spartan", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Global Styles */
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #088178;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 54px;
+  color: #088178;
+}
+
+h4 {
+  font-size: 15px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #088178;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 1s;
+}
+button.white{
+  margin-top: 10px;
+  padding: 11px 18px;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.5s;
+}
+#wishlist_container{
+    padding: 20px 80px;
+    background-color: #e3e6f3;
+}
+.horizental_line{
+    height: 5px;
+    background-color: #000;
+}

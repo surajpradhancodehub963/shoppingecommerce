@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Spartan", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Global Styles */
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+.section-p1 {
+  padding: 40px 80px;
+}
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.white{
+  margin-top: 10px;
+  padding: 11px 18px;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.5s;
+}
+/* Navabar */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0%;
+}
+#nav_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+#nav_items li {
+  list-style: none;
+  padding:0px 20px;
+}
+#nav_items li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+#nav_items li a:hover{
+    color: #088178;
+}
+#mobile{
+  display: none;
+  align-items: center;
+}
+#close{
+  display: none;
+}
+/* hero section */
+#hero{
+    background-image: url("./images/hero/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    color: #088178;
+}
+#hero button{
+    background-image: url("./images/hero/button.png");
+    background-color: transparent;
+    color: #088178;
+    background-size: cover;
+    padding: 14px 80px 14px 65px;
+    border: none;
+    font-weight: 600;
+}
+/* Products section */
+#product1{
+    padding: 40px 80px 20px 80px;
+}
+#product1 h2{
+    font-weight: 700;
+    font-family: "Spartan", sans-serif;
+}
+#product1 .card{
+    position: relative;
+}
+#product1 .card .card_image{
+    width: 100%;
+}
+#product1 .card .card_button{
+    background-color: #088178;
+    color: #e3e6f3;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+#product1 .card .wishlist{
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+/* Banner Section */
+#banner{
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("./images/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4{
+  color: #fff;
+  font-size: 16px;
+}
+#banner h2{
+color: #fff;
+font-size: 30px;
+padding: 10px 0;
+}
+#banner h2 span{
+  color: red;
+}
+#banner .normal:hover{
+  background: #088178;
+  color: #fff;
+}
+/* Small banner section */
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  padding: 30px;
+}
+#sm-banner h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banner h2{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+#sm-banner .white a{
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+#sm-banner .white:hover{
+  background-color: #088178;
+  color: #fff;
+}
+#sm-banner .banner_box_1{
+  background-image: url("./images/banner/b17.jpg");
+}
+#sm-banner .banner_box_2{
+  background-image: url("./images/banner/b16.jpg");
+}
+#sm-banner .banner_box_3{
+  background-image: url("./images/banner/b10.jpg");
+}
+#sm-banner .banner_box_4{
+  background-image: url("./images/banner/b18.jpg");
+}
+#sm-banner .banner_box_5{
+  background-image: url("./images/banner/b19.jpg");
+}
+/* for footer */
+#footer{
+  padding: 20px 80px;
+  background-color: #e3e6f3;
+}
+/* For Login and signup page */
+#login{
+  padding: 20px 40px;
+  background-color: #e3e6f3;
+}
+#login h1,
+#login h4{
+  color: #088178;
+  font-weight: 600;
+}
+#login form{
+  width: 40%;
+  height: 60vh;
+  box-shadow: 0 5px 15px rgba(3, 3, 3, 0.06);
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+#login form button{
+  transition: ease 1s;
+}
+#login form button:hover{
+  background-color: #088178;
+  color: #fff;
+}
+#login .img_button{
+display: flex;
+justify-content: center;
+cursor: pointer;
+}
+
+
+
+/* Media Querries */
+@media (max-width:899px){
+  #nav_items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    padding-top: 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+  }
+  #nav_items li {
+    padding: 10px 0px;
+  }
+  #nav_items.active{
+    right: 0px;
+  }
+  #mobile{
+    display: flex;
+    align-items: center;
+  }
+  #close{
+    display: inline;
+    position: absolute;
+    top: 30px;
+  }
+  #hero{
+    background-size: cover;
+    background-position: 1100px center;
+}
+}
+
+@media(max-width:499px){
+  #navbar{
+    padding: 20px 40px;
+  }
+}
